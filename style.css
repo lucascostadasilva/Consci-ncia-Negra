@@ -1,0 +1,58 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.mulher{
+    grid-area: 1 / 1 / 13 / 6;
+}
+
+.poema {
+    grid-area: 4 / 3 / 12 / 4;
+    position: absolute;
+    font-size: 70px;
+    z-index: 1;
+    translate: 1900px   350px;
+    color: #000000;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+.titulo{
+    grid-area: 2 / 2 / 3 / 5;
+    position: absolute;
+    font-size: 70px;
+    z-index: 1;
+    translate: 1900px   100px;
+    color: #FFBD59;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.mulher{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
